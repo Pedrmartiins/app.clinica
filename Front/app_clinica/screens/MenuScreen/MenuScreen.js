@@ -16,6 +16,22 @@ const MenuScreen = ({navigation}=>
         <Text style={styles.header}>Gerenciando sua Clinica</Text>
         <View style={styles.btns}>
             <Text>Escolha qual seçao deseja iniciar</Text>
+
+            <BotaoMenu
+            icone = {IconeMedic}
+            titulo = "Medicos"
+            onPress = {()=> navigation.navigate('Medicos')}/>
+
+            <BotaoMenu
+            icone = {IconePaciente}
+            titulo = "Pacientes"
+            onPress = {()=> navigation.navigate('Pacientes')}/>
+
+            <BotaoMenu
+            icone = {IconeConsulta}
+            titulo = "Consultas"
+            onPress = {()=> navigation.navigate('Consultas')}/>
+
         </View>
        </View>
     )

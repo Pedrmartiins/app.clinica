@@ -35,7 +35,7 @@ import { Button } from "react-native/types_generated/index";
         borderRadius: 15,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#007aff',
+        backgroundColor: '#007aff',     
         padding: 10,
         marginVertical:5,
         alignSelf: 'center',
