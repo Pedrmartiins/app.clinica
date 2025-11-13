@@ -52,6 +52,8 @@ const MedicoForm = ({medico, onSave, onCancel, navigation})=>{
                 isEditing ? 'Dados do medico atualizado.' : 'Novo medico cadastrado'
             )
             navigation.goBack();
+        }else{
+            Alert.alert('Error', 'Por favor, preencha todos os campos')
         }
     }
 }
