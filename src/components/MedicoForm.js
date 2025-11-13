@@ -51,6 +51,7 @@ const MedicoForm = ({medico, onSave, onCancel, navigation})=>{
                 isEditing ?'Sucesso': 'Cadastro concluido'
                 isEditing ? 'Dados do medico atualizado.' : 'Novo medico cadastrado'
             )
+            navigation.goBack();
         }
     }
 }
